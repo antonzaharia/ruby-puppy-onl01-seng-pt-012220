@@ -14,7 +14,7 @@ class Dog
     @@all.each {|dog| puts dog.name}
   end
   def save
-    @@all << self
+    @@all << name
   end
   
 end
